@@ -1,3 +1,4 @@
+from time import sleep
 print("=" * 80)
 r = '9'
 n1 = int(input("Primeiro número: "))
@@ -29,6 +30,7 @@ while r != '5':
         n2 = int(input("Segundo número: "))
     elif r == '5':
         print("Ok")
+        sleep(2)
     else:
         print("Opção inválida, digite novamente.")
     print("-  " * 30)
